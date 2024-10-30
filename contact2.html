@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!--<![endif]-->
+
+<head>
+    <title>Contact 2 | Remix - Music & Band Site Template HTML5 and CSS3</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Seo Meta -->
+    <meta name="description" content="Contact 2 | Remix - Music & Band Site Template HTML5 and CSS3">
+    <meta name="keywords" content="remix, music, light, dark, themeforest, multi purpose, band, css3, html5">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style.css" id="dark" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles/icons/icons.css" media="screen" />
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+ 
+</head>
+
+<body id="fluidGridSystem">
+    <div id="layout" class="full">
+        <!-- popup login -->
+        <div id="popupLogin">
+            <div class="def-block widget">
+                <h4>Sign In</h4>
+                <span class="liner"></span>
+                <div class="widget-content">
+                    <form id="popup_login_form" method="post" action="your-login-endpoint.php">
+                        <div class="form-group">
+                            <input type="text" name="login_username" id="login_username" class="form-control" placeholder="Username" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="login_password" id="login_password" class="form-control" placeholder="Password" required>
+                        </div>
+                        <div>
+                            <button type="submit" class="tbutton small">Sign In</button>
+                            <a href="#" id="showRegisterForm" class="tbutton color2 small" style="color: rgb(236, 8, 115);">Register</a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="def-block widget" id="registrationForm" style="display: none;">
+                <h4>Register</h4>
+                <span class="liner"></span>
+                <div class="widget-content">
+                    <form id="popup_register_form" method="post" action="your-registration-endpoint.php">
+                        <div class="form-group">
+                            <input type="text" name="register_username" id="register_username" class="form-control" placeholder="Username" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="register_email" id="register_email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="register_password" id="register_password" class="form-control" placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="register_confirm_password" id="register_confirm_password" class="form-control" placeholder="Confirm password" required>
+                        </div>
+                        <div>
+                            <button type="submit" class="tbutton small">Register</button>
+                            <a href="#" id="showLoginForm" class="tbutton color2 small" style="color: rgb(236, 8, 115);">Already have an account? Sign In</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="popupLoginClose">x</div>
+        </div><!-- popup login -->
+        <header id="header" class="glue">
+            <div class="row clearfix">
+                <div class="little-head">
+                    <div id="Login_PopUp_Link" class="sign-btn tbutton small"><span>Sign In</span></div>
+
+                    <div class="social social-head">
+                        <a href="http://twitter.com/codevz" class="bottomtip" title="Follow us on Twitter" target="_blank"><i class="icon-twitter"></i></a>
+                        <a href="http://fb.com/codevz" class="bottomtip" title="Like us on Facebook" target="_blank"><i class="icon-facebook"></i></a>
+                        <a href="https://plus.google.com/u/0/104807493509867599773" class="bottomtip" title="GooglePlus" target="_blank"><i class="icon-google-plus"></i></a>
+                        <a href="http://instagram.com/" class="bottomtip" title="instagram" target="_blank"><i class="icon-instagram"></i></a>
+                        <a href="http://dribbble.com/codevz" class="bottomtip" title="Dribbble" target="_blank"><i class="icon-dribbble"></i></a>
+                        <a href="https://soundcloud.com/codevz" class="bottomtip" title="Soundcloud" target="_blank"><i class="icon-cloud"></i></a>
+                        <a href="http://reverbnation.com/" class="bottomtip" target="_blank" title="Reverbnation"><i class="icon-star"></i></a>
+                        <a href="http://youtube.com/" class="bottomtip" target="_blank" title="YouTube"><i class="icon-youtube-play"></i></a>
+                        <a href="http://youtube.com/" class="bottomtip" target="_blank" title="Flickr"><i class="icon-flickr"></i></a>
+                        <a href="http://www.linkedin.com/" class="bottomtip" title="Linkedin" target="_blank"><i class="icon-linkedin"></i></a>
+                    </div><!-- end social -->
+
+                    <div class="search">
+                        <form action="#" id="search" method="get">
+                            <input id="inputhead" name="search" type="text" onfocus="if (this.value=='Start Searching...') this.value = '';" onblur="if (this.value=='') this.value = 'Start Searching...';" value="Start Searching..." placeholder="Start Searching ...">
+                            <button type="submit"><i class="icon-search"></i></button>
+                        </form><!-- end form -->
+                    </div><!-- search -->
+                </div><!-- little head -->
+            </div><!-- row -->
+
+            <div class="headdown">
+                <div class="row clearfix">
+                    <div class="logo bottomtip" title="Best and Most Popular Musics">
+                        <a href="index.html"><img src="images/logo.png" alt="Best and Most Popular Musics"></a>
+                    </div><!-- end logo -->
+
+                    <nav>
+                        <ul class="sf-menu">
+                            <li><a href="index.html">Home<span class="sub"></span></a></li>
+                            <li><a href="mp3s.html">MP3<span class="sub"></span></a></li>
+                            <li><a href="videos.html">Video<span class="sub"></span></a></li>
+                            <li><a href="blog-both-sidebar.html">Event<span class="sub"></span></a></li>
+                            <li><a href="contact2.html">Contact<span class="sub"></span></a></li>
+                        </ul><!-- end menu -->
+                    </nav><!-- end nav -->
+                </div><!-- row -->
+            </div><!-- headdown -->
+        </header><!-- end header -->
+
+        <div class="under_header">
+            <img src="images/assets/breadcrumbs12.png" alt="#">
+        </div><!-- under header -->
+
+        <div class="page-content back_to_up">
+            <div class="row clearfix mb">
+                <div class="breadcrumbIn">
+                    <ul>
+                        <li><a href="index.html" class="toptip" title="Homepage"> <i class="icon-home"></i> </a></li>
+                        <li> Contact </li>
+                    </ul>
+                </div><!-- breadcrumb -->
+            </div><!-- row -->
+
+            <div class="row row-fluid clearfix mbf">
+                <div class="def-block clearfix">
+                    <h4> Contact With US </h4><span class="liner"></span>
+
+                    <div class="grid_6 mt">
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+                        <p>It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                        <p>Phone: <strong> 091-134-5642 </strong> <br> Email: <strong>info@Qmix.com</strong></p>
+                    </div><!-- end grid6 -->
+
+                    <div class="grid_6 mt">
+                        <form method="post" id="contactForm" action="https://codevz.com/html/remix/processForm.php">
+                            <div class="clearfix">
+                                <div class="grid_6 alpha fll"><input type="text" name="senderName" id="senderName" placeholder="Name *" class="requiredField" /></div>
+                                <div class="grid_6 omega flr"><input type="text" name="senderEmail" id="senderEmail" placeholder="Email Address *" class="requiredField email" /></div>
+                            </div>
+                            <div><textarea name="message" id="message" placeholder="Message *" class="requiredField" rows="8"></textarea></div>
+                            <input type="submit" id="sendMessage" name="sendMessage" value="Send Email" />
+                            <span>  </span>
+                        </form><!-- end form -->
+                    </div><!-- end grid6 -->
+
+                </div><!-- def block -->
+
+            </div><!-- row clearfix -->
+        </div><!-- end page content -->
+
+        <div id="map" class="	" style="height: 1000x;">
+
+			<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Contact Page</title>
+    <style>
+        #map {
+            height: 600px; 
+            width: 100%; 
+        }
+    </style>
+    <script src="https://www.google.com/maps/search/addis+ababa+fiyel+bet+google+map/@8.9990115,38.7795467,13z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTAxMy4wIKXMDSoASAFQAw%3D%3D"></script>
+    <script>
+        function initMap() {
+    var location = {lat: 8.9990115, lng: 38.7795467}; // Use your coordinates here
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        center: location
+    });
+    var marker = new google.maps.Marker({
+        position: location,
+        map: map
+    });
+}
+
+    </script>
+</head>
+<body onload="initMap()">
+    <div id="map"></div>
+</body>
+</html>
+<iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.6943542190807!2d38.77954671572214!3d8.999011514153388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b84c6e4f43c09%3A0x89b473b394d906d5!2sFeyel%20Bet%2C%20Addis%20Ababa%2C%20Ethiopia!5e0!3m2!1sen!2sus!4v1692306462484!5m2!1sen!2sus"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+		</div><!-- map -->
+
+        <footer id="footer">
+            <div class="footer-last">
+                <div class="row clearfix">
+                    <span class="copyright">© 2024 by <a >Quantum</a>. All Rights Reserved. Powered by <a>Rotech Technologies</a>.</span>
+                    <div id="toTop"><i class="icon-angle-up"></i></div><!-- Back to top -->
+                    <div class="foot-menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="mp3s.html">MP3</a></li>
+                            <li><a href="videos.html">Video</a></li>
+                            <li><a href="blog-both-sidebar.html">Event</a></li>
+                            <li><a href="contact2.html">Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end foot menu -->
+                </div><!-- row -->
+            </div><!-- end last -->
+
+        </footer><!-- end footer -->
+
+    </div><!-- end layout -->
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/codevz.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/twitter/jquery.tweet.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/gmap3.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        jQuery(function () {
+            jQuery("#map").gmap3({
+                marker: {
+                    address: "Addis Ababa, Bole Denbel"
+                },
+                map: {
+                    options: {
+                        zoom: 14 // Adjust the zoom level as needed
+                    }
+                }
+            });
+        });
+        /* ]]> */
+    </script>
+    <script type="text/javascript">
+        // Toggle between Sign In and Register forms
+        document.getElementById('showRegisterForm').addEventListener('click', function (event) {
+            event.preventDefault();
+            document.querySelector('#popup_login_form').parentNode.parentNode.style.display = 'none';
+            document.getElementById('registrationForm').style.display = 'block';
+        });
+
+        document.getElementById('showLoginForm').addEventListener('click', function (event) {
+            event.preventDefault();
+            document.getElementById('registrationForm').style.display = 'none';
+            document.querySelector('#popup_login_form').parentNode.parentNode.style.display = 'block';
+        });
+    </script>
+</body>
+
+</html>
